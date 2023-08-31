@@ -1,10 +1,10 @@
 version: 2
 updates:
-  - package-ecosystem: "maven"
+  - package-ecosystem: "npm"
     directory: "/maven-demo/"
     schedule:
       interval: "daily"
-    target-branch: "target"
+    target-branch: "npmtarget"
     labels:
-      - "bug"
+      - "duplicate"
       
