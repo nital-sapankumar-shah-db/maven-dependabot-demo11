@@ -13,7 +13,6 @@ updates:
     directory: "/maven-demo/"
     schedule:
       interval: "daily"
-    target-branch: "npmtarget"
     labels:
       - "duplicate"
       
