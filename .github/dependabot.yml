@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "maven"
     directory: "/maven-demo/"
     schedule:
-      interval: "hourly"
+      interval: "daily"
     target-branch: "target"
     labels:
       - "bug"
