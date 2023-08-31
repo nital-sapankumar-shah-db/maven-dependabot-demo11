@@ -1,5 +1,15 @@
 version: 2
 updates:
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    directory: "/maven-demo/"
+    schedule:
+      interval: "daily"
+    target-branch: "target"
+    labels:
+      - "bug"
+      
   - package-ecosystem: "npm"
     directory: "/maven-demo/"
     schedule:
