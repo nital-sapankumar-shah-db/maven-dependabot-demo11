@@ -1,4 +1,13 @@
 version: 2
+
+registries:
+  maven-artifactory:
+    type: maven-repository
+    url: https://artifactory.sdlc.ctl.gcp.db.com/artifactory/mvn-public-local
+    username: octocat
+    password: ${{secrets.MY_ARTIFACTORY_PASSWORD}}
+    #replaces-base: true
+
 updates:
   - package-ecosystem: "maven"
     directory: "/maven-demo/"
@@ -7,6 +16,8 @@ updates:
     target-branch: "target"
     labels:
       - "bug"
+    registries:
+      - maven-artifactory
       
       
   - package-ecosystem: "npm"
@@ -17,4 +28,4 @@ updates:
       - "invalid"
 
       
-      
+
