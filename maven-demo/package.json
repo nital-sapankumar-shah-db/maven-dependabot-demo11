@@ -7,6 +7,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "webpack-dev-server": "^4.15.1"
+    "webpack-dev-server": "^3.8.17"
   }
 }
