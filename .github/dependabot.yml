@@ -12,7 +12,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/maven-demo/"
     schedule:
-      interval: "monthly"
+      interval: "daily"
     labels:
-      - "duplicate"
+      - "invalid"
       
