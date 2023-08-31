@@ -5,3 +5,6 @@ updates:
     schedule:
       interval: "daily"
     target-branch: "target"
+    labels:
+      - "bug"
+      
