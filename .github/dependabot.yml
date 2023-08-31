@@ -12,7 +12,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/maven-demo/"
     schedule:
-      interval: "daily"
+      interval: "monthly"
     target-branch: "npmtarget"
     labels:
       - "duplicate"
