@@ -8,3 +8,12 @@ updates:
     labels:
       - "bug"
       
+      
+  - package-ecosystem: "npm"
+    directory: "/maven-demo/"
+    schedule:
+      interval: "daily"
+    target-branch: "npmtarget"
+    labels:
+      - "duplicate"
+      
