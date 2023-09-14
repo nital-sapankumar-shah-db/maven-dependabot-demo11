@@ -12,13 +12,13 @@ jobs:
 
       - name: Install package
         run: | 
-          npm install @skarab/detect-package-manager@v1
+          npm install @skarab/detect-package-manager
           pnpm add @skarab/detect-package-manager
 
       
       - name: Detect Package Manager
         id: detect-pm
-        uses: skarab42/detect-package-manager@v1
+        uses: skarab42/detect-package-manager
 
       #- name: Generate Dependabot Config
        # id: generate-dependabot-config
