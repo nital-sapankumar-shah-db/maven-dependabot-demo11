@@ -24,9 +24,10 @@ jobs:
        # id: generate-dependabot-config
         #uses: dependabot/generate-dependabot-glob@v1
 
-      - name: Generate Dependabot Config
-        id: generate-dependabot-config
-        uses: dependabot/generate-dependabot-glob@v1
+      - name: Generate dependabot.yml
+        uses: Makeshift/generate-dependabot-glob-action@master
+        
+     
         #with:
          # package-ecosystem: ${{ steps.detect-pm.outputs.name }}
          # directory: ${{ steps.detect-pm.outputs.directory }}
