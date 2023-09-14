@@ -11,7 +11,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install package
-        run: npm install @skarab/detect-package-manager@v1
+        run: | 
+          npm install @skarab/detect-package-manager@v1
+          pnpm add @skarab/detect-package-manager
 
       
       - name: Detect Package Manager
