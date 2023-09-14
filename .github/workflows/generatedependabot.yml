@@ -10,6 +10,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Install package
+        run: npm install @skarab/detect-package-manager@v1
+
+      
       - name: Detect Package Manager
         id: detect-pm
         uses: skarab42/detect-package-manager@v1
